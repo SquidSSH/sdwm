@@ -1,24 +1,24 @@
 #!/bin/sh
 echo "Getting Dotfiles"
-sleep 2
+sleep 1
 git clone https://github.com/SquidSSH/dotfiles
-sleep 2
+sleep 1
 cd dotfiles
-sleep 2
+sleep 1
 cd dwm
-echo "Installing DWM"
-sleep 2
+echo "Installing DWM" | lolcat
+sleep 1
 sudo make install
-sleep 2
+sleep 1
 cd ..
 cd dmenu
-echo "Installing Dmenu"
-sleep 2
+echo "Installing Dmenu" | lolcat
+sleep 1
 sudo make install
-sleep 2
+sleep 1
 cd ..
-sleep 2
+sleep 1
 cd st
-echo "Installing ST"
-sleep 2
+echo "Installing ST" | lolcat
+sleep 1
 sudo make install
