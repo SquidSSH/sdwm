@@ -1,5 +1,5 @@
 #!/bin/sh
-echo "Getting Dotfiles"
+echo "Getting Dotfiles" | lolcat
 sleep 1
 git clone https://github.com/SquidSSH/dotfiles
 sleep 1
